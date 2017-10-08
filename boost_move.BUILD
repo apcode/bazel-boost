@@ -5,13 +5,15 @@ licenses(["notice"])
 cc_library(
   name = "move",
   includes = [
-    "include/",
+      "include/",
   ],
   hdrs = glob([
-    "include/boost/**/*.hpp",
+      "include/boost/**/*.hpp",
   ]),
   srcs = [
   ],
   deps = [
+      "@com_github_boost_assert//:assert",
+      "@com_github_boost_static_assert//:static_assert",
   ],
 )

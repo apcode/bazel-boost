@@ -23,6 +23,14 @@ cc_binary(
 )
 
 cc_binary(
+    name = "interprocess_test",
+    srcs = ["interprocess_test.cpp"],
+    deps = [
+        "@com_github_boost_interprocess//:interprocess",
+    ]
+)
+
+cc_binary(
     name = "math_test",
     srcs = ["math_test.cpp"],
     deps = [

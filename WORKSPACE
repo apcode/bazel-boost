@@ -139,6 +139,13 @@ new_git_repository(
 )
 
 new_git_repository(
+    name = "com_github_boost_intrusive",
+    build_file = "boost_intrusive.BUILD",
+    commit = "7f5caca12eac63ce3381493f3f8a861c35b03076",
+    remote = "https://github.com/boostorg/intrusive.git",
+)
+
+new_git_repository(
     name = "com_github_boost_lexical_cast",
     build_file = "boost_lexical_cast.BUILD",
     commit = "398b4510366c27007d478a1d8b0732ba5ef7feda",
