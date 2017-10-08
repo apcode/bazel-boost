@@ -31,6 +31,14 @@ cc_binary(
 )
 
 cc_binary(
+    name = "tokenizer_test",
+    srcs = ["tokenizer_test.cpp"],
+    deps = [
+        "@com_github_boost_tokenizer//:tokenizer",
+    ]
+)
+
+cc_binary(
     name = "uuid_test",
     srcs = ["uuid_test.cpp"],
     deps = [
