@@ -111,6 +111,13 @@ new_git_repository(
 )
 
 new_git_repository(
+    name = "com_github_boost_functional",
+    build_file = "boost_functional.BUILD",
+    commit = "5d83851b5c15086af3ca8a81d21764aa7a1d09e3",
+    remote = "https://github.com/boostorg/functional.git",
+)
+
+new_git_repository(
     name = "com_github_boost_fusion",
     build_file = "boost_fusion.BUILD",
     commit = "b6e52854309dc0f1b2a8e3cbb4440b35a9e5176a",
@@ -122,6 +129,13 @@ new_git_repository(
     build_file = "boost_integer.BUILD",
     commit = "919c5277c1e4d6ea9811763cf7b240bd75c5dbba",
     remote = "https://github.com/boostorg/integer.git",
+)
+
+new_git_repository(
+    name = "com_github_boost_io",
+    build_file = "boost_io.BUILD",
+    commit = "00ef24c8437b66ac464ea5664e1524c0de697f98",
+    remote = "https://github.com/boostorg/io.git",
 )
 
 new_git_repository(
@@ -304,4 +318,11 @@ new_git_repository(
     build_file = "boost_variant.BUILD",
     commit = "ea73f3fb81365ab3df20fa6264b1551cbce65d91",
     remote = "https://github.com/boostorg/variant.git",
+)
+
+new_git_repository(
+    name = "com_github_boost_winapi",
+    build_file = "boost_winapi.BUILD",
+    commit = "a9abc7668ab299392b9e458e2e99328b2151a899",
+    remote = "https://github.com/boostorg/winapi.git",
 )

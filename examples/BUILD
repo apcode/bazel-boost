@@ -23,6 +23,14 @@ cc_binary(
 )
 
 cc_binary(
+    name = "filesystem_test",
+    srcs = ["filesystem_test.cpp"],
+    deps = [
+        "@com_github_boost_filesystem//:filesystem",
+    ]
+)
+
+cc_binary(
     name = "interprocess_test",
     srcs = ["interprocess_test.cpp"],
     deps = [
@@ -35,6 +43,14 @@ cc_binary(
     srcs = ["math_test.cpp"],
     deps = [
         "@com_github_boost_math//:math",
+    ]
+)
+
+cc_binary(
+    name = "process_test",
+    srcs = ["process_test.cpp"],
+    deps = [
+        "@com_github_boost_process//:process",
     ]
 )
 
