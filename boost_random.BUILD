@@ -3,22 +3,21 @@ package(default_visibility = ["//visibility:public"])
 licenses(["notice"])
 
 cc_library(
-  name = "system",
+  name = "random",
   includes = [
-    "include/",
+      "include/",
   ],
   hdrs = glob([
-    "include/boost/**/*.h",
-    "include/boost/**/*.hpp",
-    "include/boost/**/*.ipp",
+      "include/boost/**/*.hpp",
   ]),
   srcs = glob([
   	"src/*.cpp"
   ]),
   deps = [
-      "@com_github_boost_assert//:assert",
       "@com_github_boost_config//:config",
       "@com_github_boost_core//:core",
-      "@com_github_boost_predef//:predef",
+      "@com_github_boost_integer//:integer",
+      "@com_github_boost_system//:system",
+      "@com_github_boost_throw_exception//:throw_exception",
   ]
 )

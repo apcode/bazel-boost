@@ -16,6 +16,7 @@ cc_library(
       "@com_github_boost_config//:config",
       "@com_github_boost_core//:core",
       "@com_github_boost_detail//:detail",
+      "@com_github_boost_mpl//:mpl",
       "@com_github_boost_static_assert//:static_assert",
   ]
 )

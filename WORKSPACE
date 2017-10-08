@@ -6,6 +6,13 @@ new_git_repository(
 )
 
 new_git_repository(
+    name = "com_github_boost_array",
+    build_file = "boost_array.BUILD",
+    commit = "cef221d8b4fe89325c4d0678519b0d59d2a82075",
+    remote = "https://github.com/boostorg/array.git",
+)
+
+new_git_repository(
     name = "com_github_boost_asio",
     build_file = "boost_asio.BUILD",
     commit = "b002097359f246b7b1478775251dfb153ab3ff4b",
@@ -45,6 +52,13 @@ new_git_repository(
     build_file = "boost_config.BUILD",
     commit = "0cdf4a5da8f2569061721abfeb3a43456cb060dc",
     remote = "https://github.com/boostorg/config.git",
+)
+
+new_git_repository(
+    name = "com_github_boost_container",
+    build_file = "boost_container.BUILD",
+    commit = "407aabd77bd5e1080394e5519b1061f27f2b7130",
+    remote = "https://github.com/boostorg/container.git",
 )
 
 new_git_repository(
@@ -125,6 +139,13 @@ new_git_repository(
 )
 
 new_git_repository(
+    name = "com_github_boost_lexical_cast",
+    build_file = "boost_lexical_cast.BUILD",
+    commit = "398b4510366c27007d478a1d8b0732ba5ef7feda",
+    remote = "https://github.com/boostorg/lexical_cast.git",
+)
+
+new_git_repository(
     name = "com_github_boost_math",
     build_file = "boost_math.BUILD",
     commit = "06292b087370b907db26fcaecb074cb999aa7ee0",
@@ -143,6 +164,13 @@ new_git_repository(
     build_file = "boost_mpl.BUILD",
     commit = "f311a495ed58bf51e6f11f3e900570a8d2bfc8cc",
     remote = "https://github.com/boostorg/mpl.git",
+)
+
+new_git_repository(
+    name = "com_github_boost_numeric_conversion",
+    build_file = "boost_numeric_conversion.BUILD",
+    commit = "7f3a74cb7457eef0c5e531b547ceda11bf640e0d",
+    remote = "https://github.com/boostorg/numeric_conversion.git",
 )
 
 new_git_repository(
@@ -167,6 +195,13 @@ new_git_repository(
 )
 
 new_git_repository(
+    name = "com_github_boost_predef",
+    build_file = "boost_predef.BUILD",
+    commit = "7c99dfbbd54c775084318cc387adb31ad8da4f05",
+    remote = "https://github.com/boostorg/predef.git",
+)
+
+new_git_repository(
     name = "com_github_boost_preprocessor",
     build_file = "boost_preprocessor.BUILD",
     commit = "dfc1c46ecedef21274eb142e267e91400aa33ec8",
@@ -181,10 +216,24 @@ new_git_repository(
 )
 
 new_git_repository(
+    name = "com_github_boost_random",
+    build_file = "boost_random.BUILD",
+    commit = "ab411acba33d59c0b1a2a8c8bc79f9b93e6e7c45",
+    remote = "https://github.com/boostorg/random.git",
+)
+
+new_git_repository(
     name = "com_github_boost_range",
     build_file = "boost_range.BUILD",
     commit = "8b98b696ff7e1cbda27477294a0b17742266405e",
     remote = "https://github.com/boostorg/range.git",
+)
+
+new_git_repository(
+    name = "com_github_boost_smart_ptr",
+    build_file = "boost_smart_ptr.BUILD",
+    commit = "a054a570c11bd1ac9e89b849cd7636f4b3341e4c",
+    remote = "https://github.com/boostorg/smart_ptr.git",
 )
 
 new_git_repository(
