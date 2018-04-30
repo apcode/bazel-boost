@@ -3,7 +3,7 @@ package(default_visibility = ["//visibility:public"])
 licenses(["notice"])
 
 cc_library(
-  name = "type_traits",
+  name = "regex",
   includes = [
     "include/",
   ],
@@ -12,4 +12,6 @@ cc_library(
   ]),
   srcs = [
   ],
+  deps = [
+  ]
 )

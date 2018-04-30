@@ -125,6 +125,13 @@ new_git_repository(
 )
 
 new_git_repository(
+    name = "com_github_boost_hana",
+    build_file = "build/boost_hana.BUILD",
+    commit = "e53c547207c4364f051d5ca7c244ffa03267af69",
+    remote = "https://github.com/boostorg/hana.git",
+)
+
+new_git_repository(
     name = "com_github_boost_integer",
     build_file = "build/boost_integer.BUILD",
     commit = "919c5277c1e4d6ea9811763cf7b240bd75c5dbba",

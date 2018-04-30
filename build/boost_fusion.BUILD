@@ -5,14 +5,14 @@ licenses(["notice"])
 cc_library(
   name = "fusion",
   includes = [
-      "include/",
+    "include/",
   ],
   hdrs = glob([
-      "include/boost/**/*.hpp",
+    "include/boost/**/*.hpp",
   ]),
   srcs = [
   ],
   deps = [
-      "@com_github_boost_static_assert//:static_assert",
+    "@com_github_boost_static_assert//:static_assert",
   ]
 )
